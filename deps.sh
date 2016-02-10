@@ -5,7 +5,7 @@
 ## the sibling file `reinstall.sh`.
 
 # Parse args
-JOBS=8
+JOBS=1
 USAGE="./deps.sh [-j num_jobs]"
 while [ "$1" != "" ]; do
   case $1 in
